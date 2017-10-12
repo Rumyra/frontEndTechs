@@ -9,20 +9,20 @@ frontEndTech = {
 
     textEditors: ['atom','sublime text','vs code']
 
-    terminal: [], //command line?
+    terminal: ['filesystem navigation', 'create/delete/copy/move files', 'pre/post-processing assets', 'version control'], //command line?
 
     versionControl: ['git','svn'],
 
     testing: {
-      methodologies: {'tdd','integration',''}
-      tools: {''}
-    }
+      methodologies: ['tdd','integration',]
+      tools: []
+  },
 
-    devTools: {}
+    devTools: ['javascript debugger', 'network/performance'],
 
-    dependancyManagement: {'npm', 'yarn',}
+    dependancyManagement: ['npm', 'yarn',],
 
-    buildTools: {'webpack', 'gulp', 'grunt'}
+    buildTools: ['webpack', 'gulp', 'grunt']
 
     // continious integration platforms?
 
@@ -30,9 +30,9 @@ frontEndTech = {
 
   },
 
-  accessiblity: {},
+  accessiblity: ['principles'],
 
-  html: {},
+  html: ['semantics', 'accessiblity features'],
 
   css: {
 
@@ -42,9 +42,11 @@ frontEndTech = {
 
     interaction: ['hover','animations','transitions'],
 
-    fonts: []
+    fonts: ['webfont loading', 'fallbacks'],
 
-    draw?: ['shapes','svg'],
+	processing: ['sass', 'less'],
+
+    draw: ['shapes','svg'],
 
     // should this be in browser?
     compatibility: ['vendor prefixes','conditional comments','@supports'],
@@ -53,21 +55,18 @@ frontEndTech = {
 
   },
 
-  javascript: {},
+  javascript: ['plain', 'es6 features', 'jquery'],
 
   browser: {
 
-    performance: {}
+    performance: [],
 
-    offline: {}
+    offline: []
 
   },
 
-  webBasics: {
-    ['ftp','dns','hosting','deployment','RESTful apis','GET POST PUT DELETE','web security vunerabilities/guidelines','HTTP protocol',]
-  }
+  webBasics: ['ftp','ssh','dns','hosting','deployment','RESTful apis','GET POST PUT DELETE','web security vunerabilities/guidelines','HTTP protocol',]
 
   // principles - agile etc...
-
 
 }
