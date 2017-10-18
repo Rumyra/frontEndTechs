@@ -1,4 +1,4 @@
-frontEndTech = {
+let frontEndTech = {
   // so someone showed me this https://coggle.it/diagram/Vz9LvW8byvN0I38x
   // I was displeased, I think a huge amount of front end has been missed... so I'm going to make the front end bit
 
@@ -7,26 +7,24 @@ frontEndTech = {
 
   tools: {
 
-    textEditors: ['atom','sublime text','vs code']
+    textEditors: ['atom','sublime text','vs code'],
 
     terminal: [], //command line?
 
     versionControl: ['git','svn'],
 
     testing: {
-      methodologies: {'tdd','integration',''}
-      tools: {''}
-    }
+      methodologies: ['tdd','integration'],
+      tools: []
+    },
 
-    devTools: {}
+    devTools: [],
 
-    dependancyManagement: {'npm', 'yarn',}
+    dependancyManagement: ['npm', 'yarn'],
 
-    buildTools: {'webpack', 'gulp', 'grunt'}
+    buildTools: ['webpack', 'gulp', 'grunt']
 
     // continious integration platforms?
-
-
 
   },
 
@@ -42,9 +40,9 @@ frontEndTech = {
 
     interaction: ['hover','animations','transitions'],
 
-    fonts: []
+    fonts: [],
 
-    draw?: ['shapes','svg'],
+    draw: ['shapes','svg'],
 
     // should this be in browser?
     compatibility: ['vendor prefixes','conditional comments','@supports'],
@@ -57,17 +55,17 @@ frontEndTech = {
 
   browser: {
 
-    performance: {}
+    performance: [],
 
-    offline: {}
+    offline: [],
+
+    security: []
 
   },
 
-  webBasics: {
-    ['ftp','dns','hosting','deployment','RESTful apis','GET POST PUT DELETE','web security vunerabilities/guidelines','HTTP protocol',]
-  }
+  webBasics: ['ftp','dns','hosting','deployment','RESTful apis','GET POST PUT DELETE','web security vunerabilities/guidelines','HTTP protocol']
 
   // principles - agile etc...
 
 
-}
+};
