@@ -9,18 +9,18 @@ let frontEndTech = {
 
     textEditors: ['atom','sublime text','vs code'],
 
-    terminal: [], //command line?
+    terminal: ['filesystem navigation', 'create/delete/copy/move files', 'pre/post-processing assets', 'version control'], //command line?
 
     versionControl: ['git','svn'],
 
     testing: {
-      methodologies: ['tdd','integration'],
+      methodologies: ['tdd','integration',]
       tools: []
-    },
+  },
 
-    devTools: [],
+    devTools: ['javascript debugger', 'network/performance'],
 
-    dependancyManagement: ['npm', 'yarn'],
+    dependancyManagement: ['npm', 'yarn',],
 
     buildTools: ['webpack', 'gulp', 'grunt']
 
@@ -28,9 +28,9 @@ let frontEndTech = {
 
   },
 
-  accessiblity: {},
+  accessiblity: ['principles'],
 
-  html: {},
+  html: ['semantics', 'accessiblity features'],
 
   css: {
 
@@ -40,7 +40,10 @@ let frontEndTech = {
 
     interaction: ['hover','animations','transitions'],
 
-    fonts: [],
+
+    fonts: ['webfont loading', 'fallbacks'],
+
+	processing: ['sass', 'less'],
 
     draw: ['shapes','svg'],
 
@@ -51,21 +54,19 @@ let frontEndTech = {
 
   },
 
-  javascript: {},
+  javascript: ['plain', 'es6 features', 'jquery'],
 
   browser: {
 
     performance: [],
 
-    offline: [],
 
-    security: []
+    offline: []
 
   },
 
-  webBasics: ['ftp','dns','hosting','deployment','RESTful apis','GET POST PUT DELETE','web security vunerabilities/guidelines','HTTP protocol']
+  webBasics: ['ftp','ssh','dns','hosting','deployment','RESTful apis','GET POST PUT DELETE','web security vunerabilities/guidelines','HTTP protocol',]
 
   // principles - agile etc...
-
 
 };
