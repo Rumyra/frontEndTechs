@@ -1,4 +1,4 @@
-frontEndTech = {
+let frontEndTech = {
   // so someone showed me this https://coggle.it/diagram/Vz9LvW8byvN0I38x
   // I was displeased, I think a huge amount of front end has been missed... so I'm going to make the front end bit
 
@@ -7,7 +7,7 @@ frontEndTech = {
 
   tools: {
 
-    textEditors: ['atom','sublime text','vs code']
+    textEditors: ['atom','sublime text','vs code'],
 
     terminal: ['filesystem navigation', 'create/delete/copy/move files', 'pre/post-processing assets', 'version control'], //command line?
 
@@ -26,8 +26,6 @@ frontEndTech = {
 
     // continious integration platforms?
 
-
-
   },
 
   accessiblity: ['principles'],
@@ -41,6 +39,7 @@ frontEndTech = {
     styles: ['backgrounds','borders','boxshadows','filters','blendmodes'],
 
     interaction: ['hover','animations','transitions'],
+
 
     fonts: ['webfont loading', 'fallbacks'],
 
@@ -61,6 +60,7 @@ frontEndTech = {
 
     performance: [],
 
+
     offline: []
 
   },
@@ -69,4 +69,4 @@ frontEndTech = {
 
   // principles - agile etc...
 
-}
+};
