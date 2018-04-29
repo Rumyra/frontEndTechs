@@ -16,7 +16,7 @@ let frontEndTech = {
     testing: {
       methodologies: ['tdd','integration',]
       tools: []
-  },
+    },
 
     devTools: ['javascript debugger', 'network/performance'],
 
